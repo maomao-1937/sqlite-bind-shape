@@ -1,0 +1,6 @@
+[
+  {"args":["sqlite_bind_shape.py","examples/clean.sql","examples/clean.json"],"exit":0},
+  {"args":["sqlite_bind_shape.py","examples/clean.sql","examples/missing.json"],"exit":1},
+  {"args":["sqlite_bind_shape.py","examples/numbered.sql","examples/empty.json"],"exit":2},
+  {"args":["sqlite_bind_shape.py","--help"],"exit":0}
+]
